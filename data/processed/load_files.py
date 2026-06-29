@@ -16,4 +16,4 @@ for table_name, path in files.items():
     # Verifying row count
     db_count = pd.read_sql(f'SELECT COUNT(*) as cnt FROM {table_name}', engine)['cnt'][0]
     print(f"{table_name}: CSV={len(df)}, DB={db_count}, Match={len(df)==db_count}")
-    print("Done!")
+print("Done!")
