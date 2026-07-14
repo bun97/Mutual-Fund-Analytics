@@ -2,14 +2,6 @@ import requests
 import pandas as pd
 
 #Only for the hdfc top 100
-#url =  "https://api.mfapi.in/mf/125497"
-
-#response = requests.get(url)
-#data = response.json()
-
-#nav_df = pd.DataFrame(data["data"])
-#nav_df.to_csv("data/raw/hdfc_top100_nav.csv", index=False)
-#print("saved")
 
 schemas = {
     "SBI Bluechip": 119551,
